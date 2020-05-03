@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "GlitchCam_20200412_190453551.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "GlitchCam_20200412_190453551@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "GlitchCam_20200412_190453551@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
