@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8084345824454FF000B025CC /* FateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084345724454FF000B025CC /* FateController.swift */; };
+		80BEC4842446B3D300A723B8 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BEC4832446B3D300A723B8 /* Quotes.swift */; };
+		80F217D824512989001BF957 /* DIGITALDREAMFAT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80F217D724512989001BF957 /* DIGITALDREAMFAT.ttf */; };
+		80FE83452443FC04001FFCE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE83442443FC04001FFCE2 /* AppDelegate.swift */; };
+		80FE83472443FC04001FFCE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE83462443FC04001FFCE2 /* SceneDelegate.swift */; };
+		80FE83492443FC04001FFCE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE83482443FC04001FFCE2 /* ViewController.swift */; };
+		80FE834C2443FC04001FFCE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FE834A2443FC04001FFCE2 /* Main.storyboard */; };
+		80FE834F2443FC04001FFCE2 /* Sad_Boi_Hours.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80FE834D2443FC04001FFCE2 /* Sad_Boi_Hours.xcdatamodeld */; };
+		80FE83512443FC06001FFCE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FE83502443FC06001FFCE2 /* Assets.xcassets */; };
+		80FE83542443FC06001FFCE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FE83522443FC06001FFCE2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8084345724454FF000B025CC /* FateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FateController.swift; sourceTree = "<group>"; };
+		80BEC4832446B3D300A723B8 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		80F217D724512989001BF957 /* DIGITALDREAMFAT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIGITALDREAMFAT.ttf; sourceTree = "<group>"; };
+		80FE83412443FC04001FFCE2 /* Sad Boi Hours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sad Boi Hours.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FE83442443FC04001FFCE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80FE83462443FC04001FFCE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80FE83482443FC04001FFCE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80FE834B2443FC04001FFCE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80FE834E2443FC04001FFCE2 /* Sad_Boi_Hours.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sad_Boi_Hours.xcdatamodel; sourceTree = "<group>"; };
+		80FE83502443FC06001FFCE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80FE83532443FC06001FFCE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80FE83552443FC06001FFCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FE833E2443FC04001FFCE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80F217D424512809001BF957 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8084345724454FF000B025CC /* FateController.swift */,
+				80FE83482443FC04001FFCE2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80F217D524512831001BF957 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80BEC4832446B3D300A723B8 /* Quotes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80F217DB245129A4001BF957 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				80F217D724512989001BF957 /* DIGITALDREAMFAT.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		80FE83382443FC04001FFCE2 = {
+			isa = PBXGroup;
+			children = (
+				80FE83432443FC04001FFCE2 /* Sad Boi Hours */,
+				80FE83422443FC04001FFCE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FE83422443FC04001FFCE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FE83412443FC04001FFCE2 /* Sad Boi Hours.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FE83432443FC04001FFCE2 /* Sad Boi Hours */ = {
+			isa = PBXGroup;
+			children = (
+				80FE83442443FC04001FFCE2 /* AppDelegate.swift */,
+				80FE83462443FC04001FFCE2 /* SceneDelegate.swift */,
+				80F217D424512809001BF957 /* Controller */,
+				80F217D524512831001BF957 /* Model */,
+				80FE834A2443FC04001FFCE2 /* Main.storyboard */,
+				80FE83522443FC06001FFCE2 /* LaunchScreen.storyboard */,
+				80F217DB245129A4001BF957 /* Font */,
+				80FE83502443FC06001FFCE2 /* Assets.xcassets */,
+				80FE83552443FC06001FFCE2 /* Info.plist */,
+				80FE834D2443FC04001FFCE2 /* Sad_Boi_Hours.xcdatamodeld */,
+			);
+			path = "Sad Boi Hours";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FE83402443FC04001FFCE2 /* Sad Boi Hours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FE836E2443FC06001FFCE2 /* Build configuration list for PBXNativeTarget "Sad Boi Hours" */;
+			buildPhases = (
+				80FE833D2443FC04001FFCE2 /* Sources */,
+				80FE833E2443FC04001FFCE2 /* Frameworks */,
+				80FE833F2443FC04001FFCE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sad Boi Hours";
+			productName = "Sad Boi Hours";
+			productReference = 80FE83412443FC04001FFCE2 /* Sad Boi Hours.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FE83392443FC04001FFCE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Sharence Solomero";
+				TargetAttributes = {
+					80FE83402443FC04001FFCE2 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 80FE833C2443FC04001FFCE2 /* Build configuration list for PBXProject "Sad Boi Hours" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80FE83382443FC04001FFCE2;
+			productRefGroup = 80FE83422443FC04001FFCE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FE83402443FC04001FFCE2 /* Sad Boi Hours */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FE833F2443FC04001FFCE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FE83542443FC06001FFCE2 /* LaunchScreen.storyboard in Resources */,
+				80F217D824512989001BF957 /* DIGITALDREAMFAT.ttf in Resources */,
+				80FE83512443FC06001FFCE2 /* Assets.xcassets in Resources */,
+				80FE834C2443FC04001FFCE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FE833D2443FC04001FFCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8084345824454FF000B025CC /* FateController.swift in Sources */,
+				80FE83492443FC04001FFCE2 /* ViewController.swift in Sources */,
+				80BEC4842446B3D300A723B8 /* Quotes.swift in Sources */,
+				80FE83452443FC04001FFCE2 /* AppDelegate.swift in Sources */,
+				80FE83472443FC04001FFCE2 /* SceneDelegate.swift in Sources */,
+				80FE834F2443FC04001FFCE2 /* Sad_Boi_Hours.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80FE834A2443FC04001FFCE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FE834B2443FC04001FFCE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80FE83522443FC06001FFCE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FE83532443FC06001FFCE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FE836C2443FC06001FFCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80FE836D2443FC06001FFCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FE836F2443FC06001FFCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4T87RJRV6;
+				INFOPLIST_FILE = "Sad Boi Hours/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sharence-Solomero.Sad-Boi-Hours";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		80FE83702443FC06001FFCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4T87RJRV6;
+				INFOPLIST_FILE = "Sad Boi Hours/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sharence-Solomero.Sad-Boi-Hours";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FE833C2443FC04001FFCE2 /* Build configuration list for PBXProject "Sad Boi Hours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FE836C2443FC06001FFCE2 /* Debug */,
+				80FE836D2443FC06001FFCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FE836E2443FC06001FFCE2 /* Build configuration list for PBXNativeTarget "Sad Boi Hours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FE836F2443FC06001FFCE2 /* Debug */,
+				80FE83702443FC06001FFCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80FE834D2443FC04001FFCE2 /* Sad_Boi_Hours.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80FE834E2443FC04001FFCE2 /* Sad_Boi_Hours.xcdatamodel */,
+			);
+			currentVersion = 80FE834E2443FC04001FFCE2 /* Sad_Boi_Hours.xcdatamodel */;
+			path = Sad_Boi_Hours.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80FE83392443FC04001FFCE2 /* Project object */;
+}
