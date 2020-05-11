@@ -1,5 +1,5 @@
 # Sad-Boi-Hours
-An iOS app for all the sad bois out there that need some advice/comfort. 
+iOS 13 & Swift 5 -- An app for all the sad bois out there that need some advice/comfort. 
 
 # Purpose
 Familiarize myself with Swift, Xcode, UI Storyboard 
